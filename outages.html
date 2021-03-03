@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131018678-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-131018678-1');
+</script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Maxxpower website.">
+    <meta name="author" content="MaxxPower">
+    <link rel="icon" href="favicon.ico">
+    <title>MAXX⚡Power &bull; Outages</title>
+    <link rel="stylesheet" href="styles/bootstrap.css" >
+    <link href="styles/styles.css" rel="stylesheet">
+
+  </head>
+  <body class="text-center">
+    <div class="cover-container d-flex w-100% h-100% p-3 mx-auto flex-column">
+      <header class="masthead mb-auto">
+        <div class="inner">
+          <h3 class="masthead-brand">MAXX⚡Power</h3>
+          <nav class="nav nav-masthead justify-content-center">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link  active" href="#">Power outages</a>
+            <a class="nav-link" href="faq.html">FAQ</a>
+	    <!-- <a class="nav-link" href="http://www.wtvr.com">Our Power Plants</a>	 -->
+          </nav>
+        </div>
+      </header>
+      <br>
+      <!-- There is a DOM Exception preventing the resizeIframe function from working -->
+      <!-- <iframe id="iframeWindow" src="resources/Outage_Data.pdf" frameborder="0" scrolling="no" onload="resizeIframe()" style="height: 600px"></iframe> -->
+     <embed src="resources/Outage_Data.pdf" width="600" height="600" alt="pdf" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">
+      <br>
+      <footer class="mastfoot mt-auto">
+        <div class="inner">
+          <p>Contact us: &nbsp; Phone: (804) 745-6486 &nbsp;  Email: maxxpower@gmail.com</p>
+          <p>Address: 201 W. 7th St.Richmond, VA 23224</p>
+          <hr>
+          <p>©MAXX⚡Power</p>
+        </div>
+      </footer>
+    </div>
+    <script>
+       function resizeIframe(iframe) {
+        iframe.height = iframe.contentWindow.document.body.scrollHeight + "px";
+        }
+    </script>
+  </body>
+</html>
